@@ -1,0 +1,30 @@
+# backend/requirements.txt
+
+# Core framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# MLflow
+mlflow==2.9.2
+
+# Machine Learning
+scikit-learn==1.3.2
+pandas==2.1.3
+numpy==1.26.2
+xgboost==2.0.3
+
+# Explainability
+shap==0.43.0
+lime==0.2.0
+
+# Utilities
+python-dotenv==1.0.0
+requests==2.31.0
+joblib==1.3.2
+
+# Development (optional)
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.12.0
+flake8==6.1.0
